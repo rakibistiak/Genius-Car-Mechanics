@@ -6,7 +6,7 @@ const Expert = ({ expert }) => {
         <div className="col-lg-4 col-sm-6 col-12">
             <img src={img} alt="" />
             <h3>{name}</h3>
-            <h5 className="text-danger">{expertize}</h5>
+            <h5 className="text-warning">{expertize}</h5>
         </div>
     );
 };
